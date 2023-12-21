@@ -23,6 +23,6 @@ jobs:
     uses: neongeckocom/.github/.github/workflows/publish_docker.yml@FEAT_BetterDockerSupport
     secrets: inherit
     with:
-      build_args: "['EXTRAS=gradio']"
+      build_args: '["EXTRAS=gradio"]'
       extra_tag: "websat"
-      extra_build_args: "['EXTRAS=websat']"
+      extra_build_args: '["EXTRAS=websat"]'
