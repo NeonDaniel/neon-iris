@@ -29,5 +29,5 @@ jobs:
     uses: neongeckocom/.github/.github/workflows/publish_docker.yml@FEAT_BetterDockerSupport
     secrets: inherit
     with:
-      build_args: EXTRAS=websat
+      build_args: EXTRAS=web_sat
       image_name: ${{ github.repository }}-websat
